@@ -1,0 +1,13 @@
+{
+  "name": "CRM 101 — Mini CRM",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "forwardPorts": [8060],
+  "portsAttributes": {"8060": {"label": "CRM 101 — Mini CRM", "onAutoForward": "openBrowser"}},
+  "postCreateCommand": "pip install --user uv==0.8.17 && export PATH=$HOME/.local/bin:$PATH && uv sync --frozen",
+  "postStartCommand": "nohup bash -c 'export PATH=$HOME/.local/bin:$PATH; uv run --frozen python -m mini_crm.sunucu' > /tmp/lab-sunucu.log 2>&1 &",
+  "customizations": {
+    "vscode": {"extensions": ["ms-python.python"], "settings": {"workbench.startupEditor": "readme"}},
+    "codespaces": {"openFiles": ["README.md"]}
+  },
+  "hostRequirements": {"cpus": 2, "memory": "4gb"}
+}
