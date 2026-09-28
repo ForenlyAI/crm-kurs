@@ -1,0 +1,18 @@
+[project]
+name = "crm-101-lab"
+version = "1.0.0"
+description = "CRM 101 kursu laboratuvarı: Mini CRM (yerel web uygulaması, yalnız Python standart kitaplığı) + doğrulama ve ekran araçları"
+readme = "README.md"
+requires-python = ">=3.12"
+# Mini CRM'in kendisi hiçbir pakete ihtiyaç duymaz: `uv run python -m mini_crm.sunucu` paket indirmez.
+dependencies = []
+
+[dependency-groups]
+# Yalnız ders ekranı üretmek için (kurs ekibi): uv run --group araclar python araclar/ekranlari_uret.py
+araclar = [
+    "playwright==1.63.0",
+    "pillow==11.3.0",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,19 @@
+~/lab $ uv run python dogrula/rapor_dogrula.py --adres http://localhost:8070 --bozuk --ozet
+NEGATİF TEST: fırsat #1 CSV'de Kaybedildi yapıldı — farklar görünmeli
+
+ölçü                          CSV’den hesap     Mini CRM  sonuç
+ağırlıklı değer (TL)             128.805,00   128.805,00  GEÇTİ
+kazanılan sayısı                          5            6  KALDI
+kaybedilen sayısı                         7            6  KALDI
+kazanma oranı                        0,4167       0,5000  KALDI
+kazanılan tutar (TL)                153.300      171.800  KALDI
+ort. satış süresi (gün)               28,00        26,67  KALDI
+geçiş: Yeni →                        0,8750       0,8750  GEÇTİ
+geçiş: Nitelikli →                   0,8095       0,8095  GEÇTİ
+geçiş: Görüşme →                     0,7647       0,7647  GEÇTİ
+geçiş: Teklif →                      0,6923       0,6923  GEÇTİ
+geçiş: Pazarlık →                    0,6667       0,6667  GEÇTİ
+kayıp: Fiyat yüksek                       4            3  KALDI
+kazanma: Tavsiye                     0,3333       0,6667  KALDI
+
+28 karşılaştırma · SONUÇ: KALDI (7 fark)

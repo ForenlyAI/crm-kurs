@@ -1,0 +1,25 @@
+id,ad,sirket_alan_adi,kisi_eposta,tutar,asama,sahip,kaynak,beklenen_kapanis,kayip_nedeni,olusturma,guncelleme,kazanilma_tarihi
+1,Menü ve masa kartı baskısı,lale-kafe.example.com,elif@lale-kafe.example.com,18500,Kazanıldı,Ayşe Örnek,Tavsiye,2026-06-25,,2026-06-02,2026-06-22,2026-06-22
+2,Ürün katalogu (48 sayfa),demir-mobilya.example.com,kerem@demir-mobilya.example.com,85000,Kazanıldı,Deniz Deneme,Fuar,2026-07-31,,2026-06-05,2026-07-21,2026-07-21
+3,Kartvizit (6 kişi),pusula-emlak.example.com,selin@pusula-emlak.example.com,4500,Kazanıldı,Kaan Kurgu,Web sitesi,2026-07-20,,2026-07-10,2026-07-18,2026-07-18
+4,Sezon afişleri,gunes-spor.example.com,zeynep@gunes-spor.example.com,12000,Kazanıldı,Deniz Deneme,Tavsiye,2026-07-31,,2026-07-01,2026-07-25,2026-07-25
+5,Fuar standı baskıları,kavak-yazilim.example.com,can@kavak-yazilim.example.com,42000,Kazanıldı,Ayşe Örnek,Instagram,2026-08-15,,2026-07-15,2026-08-14,2026-08-14
+6,Kitap ayracı ve kâğıt poşet,marti-kitabevi.example.com,onur@marti-kitabevi.example.com,9800,Kazanıldı,Kaan Kurgu,Soğuk arama,2026-09-05,,2026-08-03,2026-09-04,2026-09-04
+7,Randevu kartı,nane-dis.example.com,burak@nane-dis.example.com,6000,Kaybedildi,Kaan Kurgu,Web sitesi,2026-08-15,Yanıt vermedi,2026-07-20,2026-08-10,
+8,Oda içi tanıtım broşürü,cinar-otel.example.com,ece@cinar-otel.example.com,22000,Kaybedildi,Deniz Deneme,Fuar,2026-07-15,Bütçe ertelendi,2026-06-20,2026-07-05,
+9,Mağaza tabelası,demir-mobilya.example.com,mert@demir-mobilya.example.com,35000,Kaybedildi,Deniz Deneme,Fuar,2026-08-20,Rakip seçildi,2026-07-22,2026-08-15,
+10,Paket servis etiketleri,lale-kafe.example.com,deren@lale-kafe.example.com,7500,Kaybedildi,Ayşe Örnek,Tavsiye,2026-08-25,Fiyat yüksek,2026-08-01,2026-08-20,
+11,Personel yaka kartları,cinar-otel.example.com,tolga@cinar-otel.example.com,11000,Kaybedildi,Kaan Kurgu,Soğuk arama,2026-08-31,Fiyat yüksek,2026-07-25,2026-08-25,
+12,Yıllık faaliyet raporu baskısı,kavak-yazilim.example.com,ipek@kavak-yazilim.example.com,28000,Kaybedildi,Ayşe Örnek,Instagram,2026-09-10,Fiyat yüksek,2026-08-05,2026-09-08,
+13,Etkinlik afişi,marti-kitabevi.example.com,onur@marti-kitabevi.example.com,5500,Yeni,Kaan Kurgu,Instagram,2026-10-10,,2026-09-22,2026-09-22,
+14,Düğün davetiyesi,,nazli.taslak@example.com,6800,Yeni,Ayşe Örnek,Instagram,2026-10-15,,2026-09-23,2026-09-23,
+15,Satılık-kiralık tabelaları,pusula-emlak.example.com,selin@pusula-emlak.example.com,16000,Nitelikli,Kaan Kurgu,Web sitesi,2026-10-20,,2026-09-10,2026-09-15,
+16,Üye kartları,gunes-spor.example.com,arda@gunes-spor.example.com,9000,Nitelikli,Deniz Deneme,Tavsiye,2026-10-01,,2026-09-01,2026-09-03,
+17,Restoran menüsü,cinar-otel.example.com,tolga@cinar-otel.example.com,14500,Nitelikli,Deniz Deneme,Fuar,2026-10-25,,2026-09-12,2026-09-18,
+18,Ürün broşürü,kavak-yazilim.example.com,can@kavak-yazilim.example.com,19000,Görüşme,Ayşe Örnek,Tavsiye,2026-10-15,,2026-08-25,2026-09-02,
+19,Katalog ek baskı,demir-mobilya.example.com,kerem@demir-mobilya.example.com,38000,Görüşme,Deniz Deneme,Tavsiye,2026-10-31,,2026-09-08,2026-09-16,
+20,Hasta bilgilendirme broşürü,nane-dis.example.com,burak@nane-dis.example.com,8500,Görüşme,Kaan Kurgu,Web sitesi,2026-10-20,,2026-09-05,2026-09-11,
+21,Kış menüsü,lale-kafe.example.com,elif@lale-kafe.example.com,12500,Teklif,Ayşe Örnek,Tavsiye,2026-10-05,,2026-09-01,2026-09-12,
+22,Okul sezonu kampanya seti,marti-kitabevi.example.com,onur@marti-kitabevi.example.com,24000,Teklif,Kaan Kurgu,Soğuk arama,2026-09-20,,2026-08-20,2026-09-05,
+23,Turnuva afiş ve pankartları,gunes-spor.example.com,zeynep@gunes-spor.example.com,31000,Pazarlık,Deniz Deneme,Tavsiye,2026-10-10,,2026-08-28,2026-09-19,
+24,Konut projesi katalogu,pusula-emlak.example.com,selin@pusula-emlak.example.com,56000,Pazarlık,Ayşe Örnek,Fuar,2026-10-15,,2026-08-15,2026-09-17,

@@ -1,0 +1,5 @@
+~/lab $ uv run python -m mini_crm.sunucu
+Örnek veri kuruldu: calisma/mini-crm.db (bugün = 2026-09-25)
+Mini CRM açık: http://localhost:8060  (durdurmak için Ctrl+C)
+
+Mini CRM kapatıldı.

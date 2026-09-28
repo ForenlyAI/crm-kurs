@@ -1,0 +1,7 @@
+~/lab/ekran/3.1 $ head -n 6 mini-crm-firsat.csv
+id,ad,sirket_alan_adi,kisi_eposta,tutar,asama,sahip,kaynak,beklenen_kapanis,kayip_nedeni,olusturma,guncelleme,kazanilma_tarihi
+1,Menü ve masa kartı baskısı,lale-kafe.example.com,elif@lale-kafe.example.com,18500,Kazanıldı,Ayşe Örnek,Tavsiye,2026-06-25,,2026-06-02,2026-06-22,2026-06-22
+2,Ürün katalogu (48 sayfa),demir-mobilya.example.com,kerem@demir-mobilya.example.com,85000,Kazanıldı,Deniz Deneme,Fuar,2026-07-31,,2026-06-05,2026-07-21,2026-07-21
+3,Kartvizit (6 kişi),pusula-emlak.example.com,selin@pusula-emlak.example.com,4500,Kazanıldı,Kaan Kurgu,Web sitesi,2026-07-20,,2026-07-10,2026-07-18,2026-07-18
+4,Sezon afişleri,gunes-spor.example.com,zeynep@gunes-spor.example.com,12000,Kazanıldı,Deniz Deneme,Tavsiye,2026-07-31,,2026-07-01,2026-07-25,2026-07-25
+5,Fuar standı baskıları,kavak-yazilim.example.com,can@kavak-yazilim.example.com,42000,Kazanıldı,Ayşe Örnek,Instagram,2026-08-15,,2026-07-15,2026-08-14,2026-08-14

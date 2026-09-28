@@ -1,0 +1,5 @@
+~/lab $ uv run python ornekler/webhook_alici.py
+Alıcı dinliyor: http://localhost:8071/mini-crm  (Ctrl+C ile durur)
+[11:02:45] opportunity.updated    imza DOĞRU  · Konut projesi katalogu · pazarlik → kazanildi
+[11:02:45] task.created           imza DOĞRU  · Teslimat ve fatura
+^C

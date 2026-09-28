@@ -1,0 +1,10 @@
+﻿Ad;Soyad;E-posta;Telefon;Şirket;Unvan;İzin;İzin tarihi;İzin kaynağı;Not
+Sena;Örnek;sena@lale-kafe.example.com;0000 000 00 21;lale-kafe.example.com;Vardiya sorumlusu;evet;12.09.2026;Web sitesi formu;
+Elif;Örnek;elif@lale-kafe.example.com;0000 000 00 01;lale-kafe.example.com;Kurucu;evet;03.06.2026;Fuar başvuru formu;eski listeden
+Tuna;Deneme;tuna.deneme@demir-mobilya;0000 000 00 22;demir-mobilya.example.com;Depo sorumlusu;hayir;;;
+;Kurgu;defne@pusula-emlak.example.com;0000 000 00 23;pusula-emlak.example.com;Danışman;;;;adı sonra sorulacak
+Umut;Taslak;umut@sahil-kafe.example.com;0000 000 00 24;sahil-kafe.example.com;Sahip;evet;01.09.2026;Fuar başvuru formu;
+Sena;Örnek;sena@lale-kafe.example.com;0000 000 00 21;lale-kafe.example.com;Vardiya sorumlusu;evet;12.09.2026;Web sitesi formu;iki kez yazılmış
+Oya;Numune;oya@kavak-yazilim.example.com;0000 000 00 25;kavak-yazilim.example.com;İK;belki;;;
+Emre;Prova;emre@cinar-otel.example.com;0000 000 00 26;cinar-otel.example.com;Resepsiyon;evet;;;fuarda konuştuk
+Işıl;Misal;isil@gunes-spor.example.com;0000 000;gunes-spor.example.com;Antrenör;hayir;;;

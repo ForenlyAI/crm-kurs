@@ -1,0 +1,1321 @@
+{
+ "aciklama": "CRM 101 lab tohum verisi. Bütün şirket, kişi, e-posta ve telefonlar UYDURMADIR (alan adları example.com altında, telefonlar 0000).",
+ "isletme": {
+  "ad": "Mavi Kalem Baskı Atölyesi",
+  "not": "uydurma işletme — kartvizit, menü, katalog, afiş basan küçük bir atölye"
+ },
+ "referans_tarih": "2026-09-25",
+ "asamalar": [
+  {
+   "kod": "yeni",
+   "ad": "Yeni",
+   "olasilik": 10,
+   "acik": true
+  },
+  {
+   "kod": "nitelikli",
+   "ad": "Nitelikli",
+   "olasilik": 25,
+   "acik": true
+  },
+  {
+   "kod": "gorusme",
+   "ad": "Görüşme",
+   "olasilik": 40,
+   "acik": true
+  },
+  {
+   "kod": "teklif",
+   "ad": "Teklif",
+   "olasilik": 60,
+   "acik": true
+  },
+  {
+   "kod": "pazarlik",
+   "ad": "Pazarlık",
+   "olasilik": 80,
+   "acik": true
+  },
+  {
+   "kod": "kazanildi",
+   "ad": "Kazanıldı",
+   "olasilik": 100,
+   "acik": false
+  },
+  {
+   "kod": "kaybedildi",
+   "ad": "Kaybedildi",
+   "olasilik": 0,
+   "acik": false
+  }
+ ],
+ "kayip_nedenleri": [
+  "Fiyat yüksek",
+  "Rakip seçildi",
+  "Bütçe ertelendi",
+  "Yanıt vermedi",
+  "İhtiyaç ortadan kalktı",
+  "Diğer"
+ ],
+ "kaynaklar": [
+  "Tavsiye",
+  "Web sitesi",
+  "Instagram",
+  "Fuar",
+  "Soğuk arama"
+ ],
+ "kullanicilar": [
+  {
+   "id": 1,
+   "ad": "Ayşe Örnek",
+   "rol": "yonetici",
+   "unvan": "Atölye sahibi"
+  },
+  {
+   "id": 2,
+   "ad": "Deniz Deneme",
+   "rol": "satis",
+   "unvan": "Satış"
+  },
+  {
+   "id": 3,
+   "ad": "Kaan Kurgu",
+   "rol": "satis",
+   "unvan": "Satış (yarı zamanlı)"
+  }
+ ],
+ "sirketler": [
+  {
+   "id": 1,
+   "ad": "Lale Kafe",
+   "alan_adi": "lale-kafe.example.com",
+   "sektor": "Yeme-içme",
+   "calisan": "1-10",
+   "sehir": "Eskişehir",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 2,
+   "ad": "Demir Mobilya",
+   "alan_adi": "demir-mobilya.example.com",
+   "sektor": "Mobilya",
+   "calisan": "11-50",
+   "sehir": "Eskişehir",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 3,
+   "ad": "Pusula Emlak",
+   "alan_adi": "pusula-emlak.example.com",
+   "sektor": "Emlak",
+   "calisan": "1-10",
+   "sehir": "Eskişehir",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 4,
+   "ad": "Nane Diş Kliniği",
+   "alan_adi": "nane-dis.example.com",
+   "sektor": "Sağlık",
+   "calisan": "11-50",
+   "sehir": "Bilecik",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 5,
+   "ad": "Güneş Spor Kulübü",
+   "alan_adi": "gunes-spor.example.com",
+   "sektor": "Spor / dernek",
+   "calisan": "11-50",
+   "sehir": "Eskişehir",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 6,
+   "ad": "Kavak Yazılım",
+   "alan_adi": "kavak-yazilim.example.com",
+   "sektor": "Yazılım",
+   "calisan": "11-50",
+   "sehir": "Ankara",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 7,
+   "ad": "Çınar Otel",
+   "alan_adi": "cinar-otel.example.com",
+   "sektor": "Konaklama",
+   "calisan": "51-200",
+   "sehir": "Eskişehir",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 8,
+   "ad": "Martı Kitabevi",
+   "alan_adi": "marti-kitabevi.example.com",
+   "sektor": "Perakende",
+   "calisan": "1-10",
+   "sehir": "Kütahya",
+   "olusturma": "2026-06-01"
+  }
+ ],
+ "kisiler": [
+  {
+   "id": 1,
+   "ad": "Elif",
+   "soyad": "Örnek",
+   "sirket_id": 1,
+   "unvan": "Kurucu",
+   "eposta": "elif@lale-kafe.example.com",
+   "telefon": "0000 000 00 01",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-06-03",
+   "izin_kaynagi": "Fuar başvuru formu",
+   "aydinlatma_tarihi": "2026-06-03",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 2,
+   "ad": "Mert",
+   "soyad": "Deneme",
+   "sirket_id": 2,
+   "unvan": "Satın alma",
+   "eposta": "mert@demir-mobilya.example.com",
+   "telefon": "0000 000 00 02",
+   "izin_tanitim": "hayir",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "2026-06-05",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 3,
+   "ad": "Selin",
+   "soyad": "Kurgu",
+   "sirket_id": 3,
+   "unvan": "Ofis müdürü",
+   "eposta": "selin@pusula-emlak.example.com",
+   "telefon": "0000 000 00 03",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-07-10",
+   "izin_kaynagi": "Web sitesi formu",
+   "aydinlatma_tarihi": "2026-07-10",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 4,
+   "ad": "Burak",
+   "soyad": "Taslak",
+   "sirket_id": 4,
+   "unvan": "Klinik müdürü",
+   "eposta": "burak@nane-dis.example.com",
+   "telefon": "0000 000 00 04",
+   "izin_tanitim": "",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 5,
+   "ad": "Zeynep",
+   "soyad": "Numune",
+   "sirket_id": 5,
+   "unvan": "Başkan yardımcısı",
+   "eposta": "zeynep@gunes-spor.example.com",
+   "telefon": "0000 000 00 05",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-05-20",
+   "izin_kaynagi": "Web sitesi formu",
+   "aydinlatma_tarihi": "2026-05-20",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 6,
+   "ad": "Can",
+   "soyad": "Model",
+   "sirket_id": 6,
+   "unvan": "Pazarlama",
+   "eposta": "can@kavak-yazilim.example.com",
+   "telefon": "0000 000 00 06",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-06-15",
+   "izin_kaynagi": "E-posta yanıtı",
+   "aydinlatma_tarihi": "2026-06-15",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 7,
+   "ad": "Ece",
+   "soyad": "Prova",
+   "sirket_id": 7,
+   "unvan": "Genel müdür",
+   "eposta": "ece@cinar-otel.example.com",
+   "telefon": "0000 000 00 07",
+   "izin_tanitim": "hayir",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "2026-06-20",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 8,
+   "ad": "Onur",
+   "soyad": "Misal",
+   "sirket_id": 8,
+   "unvan": "Mağaza sahibi",
+   "eposta": "onur@marti-kitabevi.example.com",
+   "telefon": "0000 000 00 08",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-08-01",
+   "izin_kaynagi": "Mağazada imzalı form",
+   "aydinlatma_tarihi": "2026-08-01",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 9,
+   "ad": "Deren",
+   "soyad": "Temsili",
+   "sirket_id": 1,
+   "unvan": "Ortak",
+   "eposta": "deren@lale-kafe.example.com",
+   "telefon": "0000 000 00 09",
+   "izin_tanitim": "",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 10,
+   "ad": "Kerem",
+   "soyad": "Deneme",
+   "sirket_id": 2,
+   "unvan": "Genel müdür",
+   "eposta": "kerem@demir-mobilya.example.com",
+   "telefon": "0000 000 00 10",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-07-02",
+   "izin_kaynagi": "Web sitesi formu",
+   "aydinlatma_tarihi": "2026-07-02",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 11,
+   "ad": "İpek",
+   "soyad": "Örnek",
+   "sirket_id": 6,
+   "unvan": "Kurucu",
+   "eposta": "ipek@kavak-yazilim.example.com",
+   "telefon": "0000 000 00 11",
+   "izin_tanitim": "",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 12,
+   "ad": "Tolga",
+   "soyad": "Kurgu",
+   "sirket_id": 7,
+   "unvan": "Satın alma",
+   "eposta": "tolga@cinar-otel.example.com",
+   "telefon": "0000 000 00 12",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-08-20",
+   "izin_kaynagi": "Fuar başvuru formu",
+   "aydinlatma_tarihi": "2026-08-20",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 13,
+   "ad": "Nazlı",
+   "soyad": "Taslak",
+   "sirket_id": null,
+   "unvan": "Bireysel müşteri",
+   "eposta": "nazli.taslak@example.com",
+   "telefon": "0000 000 00 13",
+   "izin_tanitim": "hayir",
+   "izin_tarihi": "",
+   "izin_kaynagi": "",
+   "aydinlatma_tarihi": "2026-09-23",
+   "olusturma": "2026-06-01"
+  },
+  {
+   "id": 14,
+   "ad": "Arda",
+   "soyad": "Numune",
+   "sirket_id": 5,
+   "unvan": "Muhasebe",
+   "eposta": "arda@gunes-spor.example.com",
+   "telefon": "0000 000 00 14",
+   "izin_tanitim": "evet",
+   "izin_tarihi": "2026-09-02",
+   "izin_kaynagi": "Web sitesi formu",
+   "aydinlatma_tarihi": "2026-09-02",
+   "olusturma": "2026-06-01"
+  }
+ ],
+ "firsatlar": [
+  {
+   "id": 1,
+   "ad": "Menü ve masa kartı baskısı",
+   "sirket_id": 1,
+   "kisi_id": 1,
+   "tutar": 18500,
+   "sahip_id": 1,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-06-25",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-06-02",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-06-02"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-06-04"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-06-09"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-06-12"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-06-18"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-06-22"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "ad": "Ürün katalogu (48 sayfa)",
+   "sirket_id": 2,
+   "kisi_id": 10,
+   "tutar": 85000,
+   "sahip_id": 2,
+   "kaynak": "Fuar",
+   "beklenen_kapanis": "2026-07-31",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-06-05",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-06-05"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-06-10"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-06-17"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-06-26"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-07-08"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-07-21"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "ad": "Kartvizit (6 kişi)",
+   "sirket_id": 3,
+   "kisi_id": 3,
+   "tutar": 4500,
+   "sahip_id": 3,
+   "kaynak": "Web sitesi",
+   "beklenen_kapanis": "2026-07-20",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-07-10",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-10"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-07-11"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-07-14"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-07-15"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-07-17"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-07-18"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "ad": "Sezon afişleri",
+   "sirket_id": 5,
+   "kisi_id": 5,
+   "tutar": 12000,
+   "sahip_id": 2,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-07-31",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-07-01",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-01"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-07-03"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-07-08"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-07-12"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-07-19"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-07-25"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "ad": "Fuar standı baskıları",
+   "sirket_id": 6,
+   "kisi_id": 6,
+   "tutar": 42000,
+   "sahip_id": 1,
+   "kaynak": "Instagram",
+   "beklenen_kapanis": "2026-08-15",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-07-15",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-15"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-07-18"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-07-28"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-08-06"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-08-14"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "ad": "Kitap ayracı ve kâğıt poşet",
+   "sirket_id": 8,
+   "kisi_id": 8,
+   "tutar": 9800,
+   "sahip_id": 3,
+   "kaynak": "Soğuk arama",
+   "beklenen_kapanis": "2026-09-05",
+   "asama": "kazanildi",
+   "kayip_nedeni": "",
+   "olusturma": "2026-08-03",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-03"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-06"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-12"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-08-18"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-08-27"
+    },
+    {
+     "asama": "kazanildi",
+     "tarih": "2026-09-04"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "ad": "Randevu kartı",
+   "sirket_id": 4,
+   "kisi_id": 4,
+   "tutar": 6000,
+   "sahip_id": 3,
+   "kaynak": "Web sitesi",
+   "beklenen_kapanis": "2026-08-15",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Yanıt vermedi",
+   "olusturma": "2026-07-20",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-20"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-08-10"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "ad": "Oda içi tanıtım broşürü",
+   "sirket_id": 7,
+   "kisi_id": 7,
+   "tutar": 22000,
+   "sahip_id": 2,
+   "kaynak": "Fuar",
+   "beklenen_kapanis": "2026-07-15",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Bütçe ertelendi",
+   "olusturma": "2026-06-20",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-06-20"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-06-25"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-07-05"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "ad": "Mağaza tabelası",
+   "sirket_id": 2,
+   "kisi_id": 2,
+   "tutar": 35000,
+   "sahip_id": 2,
+   "kaynak": "Fuar",
+   "beklenen_kapanis": "2026-08-20",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Rakip seçildi",
+   "olusturma": "2026-07-22",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-22"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-07-24"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-07-30"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-08-15"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "ad": "Paket servis etiketleri",
+   "sirket_id": 1,
+   "kisi_id": 9,
+   "tutar": 7500,
+   "sahip_id": 1,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-08-25",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Fiyat yüksek",
+   "olusturma": "2026-08-01",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-01"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-02"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-05"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-08-08"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-08-20"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "ad": "Personel yaka kartları",
+   "sirket_id": 7,
+   "kisi_id": 12,
+   "tutar": 11000,
+   "sahip_id": 3,
+   "kaynak": "Soğuk arama",
+   "beklenen_kapanis": "2026-08-31",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Fiyat yüksek",
+   "olusturma": "2026-07-25",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-07-25"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-07-29"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-04"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-08-11"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-08-25"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "ad": "Yıllık faaliyet raporu baskısı",
+   "sirket_id": 6,
+   "kisi_id": 11,
+   "tutar": 28000,
+   "sahip_id": 1,
+   "kaynak": "Instagram",
+   "beklenen_kapanis": "2026-09-10",
+   "asama": "kaybedildi",
+   "kayip_nedeni": "Fiyat yüksek",
+   "olusturma": "2026-08-05",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-05"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-07"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-12"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-08-19"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-08-28"
+    },
+    {
+     "asama": "kaybedildi",
+     "tarih": "2026-09-08"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "ad": "Etkinlik afişi",
+   "sirket_id": 8,
+   "kisi_id": 8,
+   "tutar": 5500,
+   "sahip_id": 3,
+   "kaynak": "Instagram",
+   "beklenen_kapanis": "2026-10-10",
+   "asama": "yeni",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-22",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-22"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "ad": "Düğün davetiyesi",
+   "sirket_id": null,
+   "kisi_id": 13,
+   "tutar": 6800,
+   "sahip_id": 1,
+   "kaynak": "Instagram",
+   "beklenen_kapanis": "2026-10-15",
+   "asama": "yeni",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-23",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-23"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "ad": "Satılık-kiralık tabelaları",
+   "sirket_id": 3,
+   "kisi_id": 3,
+   "tutar": 16000,
+   "sahip_id": 3,
+   "kaynak": "Web sitesi",
+   "beklenen_kapanis": "2026-10-20",
+   "asama": "nitelikli",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-10",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-10"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-15"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "ad": "Üye kartları",
+   "sirket_id": 5,
+   "kisi_id": 14,
+   "tutar": 9000,
+   "sahip_id": 2,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-10-01",
+   "asama": "nitelikli",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-01",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-01"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-03"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "ad": "Restoran menüsü",
+   "sirket_id": 7,
+   "kisi_id": 12,
+   "tutar": 14500,
+   "sahip_id": 2,
+   "kaynak": "Fuar",
+   "beklenen_kapanis": "2026-10-25",
+   "asama": "nitelikli",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-12",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-12"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-18"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "ad": "Ürün broşürü",
+   "sirket_id": 6,
+   "kisi_id": 6,
+   "tutar": 19000,
+   "sahip_id": 1,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-10-15",
+   "asama": "gorusme",
+   "kayip_nedeni": "",
+   "olusturma": "2026-08-25",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-25"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-27"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-09-02"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "ad": "Katalog ek baskı",
+   "sirket_id": 2,
+   "kisi_id": 10,
+   "tutar": 38000,
+   "sahip_id": 2,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-10-31",
+   "asama": "gorusme",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-08",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-08"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-09"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-09-16"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "ad": "Hasta bilgilendirme broşürü",
+   "sirket_id": 4,
+   "kisi_id": 4,
+   "tutar": 8500,
+   "sahip_id": 3,
+   "kaynak": "Web sitesi",
+   "beklenen_kapanis": "2026-10-20",
+   "asama": "gorusme",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-05",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-05"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-08"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-09-11"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "ad": "Kış menüsü",
+   "sirket_id": 1,
+   "kisi_id": 1,
+   "tutar": 12500,
+   "sahip_id": 1,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-10-05",
+   "asama": "teklif",
+   "kayip_nedeni": "",
+   "olusturma": "2026-09-01",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-09-01"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-02"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-09-06"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-09-12"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "ad": "Okul sezonu kampanya seti",
+   "sirket_id": 8,
+   "kisi_id": 8,
+   "tutar": 24000,
+   "sahip_id": 3,
+   "kaynak": "Soğuk arama",
+   "beklenen_kapanis": "2026-09-20",
+   "asama": "teklif",
+   "kayip_nedeni": "",
+   "olusturma": "2026-08-20",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-20"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-24"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-29"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-09-05"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "ad": "Turnuva afiş ve pankartları",
+   "sirket_id": 5,
+   "kisi_id": 5,
+   "tutar": 31000,
+   "sahip_id": 2,
+   "kaynak": "Tavsiye",
+   "beklenen_kapanis": "2026-10-10",
+   "asama": "pazarlik",
+   "kayip_nedeni": "",
+   "olusturma": "2026-08-28",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-28"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-09-01"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-09-05"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-09-10"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-09-19"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "ad": "Konut projesi katalogu",
+   "sirket_id": 3,
+   "kisi_id": 3,
+   "tutar": 56000,
+   "sahip_id": 1,
+   "kaynak": "Fuar",
+   "beklenen_kapanis": "2026-10-15",
+   "asama": "pazarlik",
+   "kayip_nedeni": "",
+   "olusturma": "2026-08-15",
+   "gecmis": [
+    {
+     "asama": "yeni",
+     "tarih": "2026-08-15"
+    },
+    {
+     "asama": "nitelikli",
+     "tarih": "2026-08-18"
+    },
+    {
+     "asama": "gorusme",
+     "tarih": "2026-08-26"
+    },
+    {
+     "asama": "teklif",
+     "tarih": "2026-09-03"
+    },
+    {
+     "asama": "pazarlik",
+     "tarih": "2026-09-17"
+    }
+   ]
+  }
+ ],
+ "gorevler": [
+  {
+   "id": 1,
+   "baslik": "Etkinlik tarihini ve afiş ölçülerini sor",
+   "firsat_id": 13,
+   "kisi_id": null,
+   "sahip_id": 3,
+   "son_tarih": "2026-09-26",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 2,
+   "baslik": "Davetiye örneklerini gönder",
+   "firsat_id": 14,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-09-25",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 3,
+   "baslik": "Tabela ölçülerini yerinde al",
+   "firsat_id": 15,
+   "kisi_id": null,
+   "sahip_id": 3,
+   "son_tarih": "2026-09-29",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 4,
+   "baslik": "Menü sayfa sayısını netleştir",
+   "firsat_id": 17,
+   "kisi_id": null,
+   "sahip_id": 2,
+   "son_tarih": "2026-09-30",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 5,
+   "baslik": "Broşür metnini ve görselleri iste",
+   "firsat_id": 18,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-09-22",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 6,
+   "baslik": "Ek baskı adedini teyit et",
+   "firsat_id": 19,
+   "kisi_id": null,
+   "sahip_id": 2,
+   "son_tarih": "2026-09-26",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 7,
+   "baslik": "Teklif sonrası telefonla ara",
+   "firsat_id": 21,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-09-19",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 8,
+   "baslik": "Kampanya seti teklifini takip et",
+   "firsat_id": 22,
+   "kisi_id": null,
+   "sahip_id": 3,
+   "son_tarih": "2026-09-15",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 9,
+   "baslik": "Pankart malzeme numunesini götür",
+   "firsat_id": 23,
+   "kisi_id": null,
+   "sahip_id": 2,
+   "son_tarih": "2026-09-27",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 10,
+   "baslik": "Kâğıt seçenekli ikinci teklifi hazırla",
+   "firsat_id": 24,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-09-28",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  },
+  {
+   "id": 11,
+   "baslik": "Menü tasarım onayını al",
+   "firsat_id": 1,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-06-20",
+   "durum": "tamam",
+   "olusturma": "2026-06-15"
+  },
+  {
+   "id": 12,
+   "baslik": "Katalog provasını teslim et",
+   "firsat_id": 2,
+   "kisi_id": null,
+   "sahip_id": 2,
+   "son_tarih": "2026-07-18",
+   "durum": "tamam",
+   "olusturma": "2026-06-15"
+  },
+  {
+   "id": 13,
+   "baslik": "Fuar sonrası tanışma araması",
+   "firsat_id": 24,
+   "kisi_id": null,
+   "sahip_id": 1,
+   "son_tarih": "2026-08-16",
+   "durum": "tamam",
+   "olusturma": "2026-06-15"
+  },
+  {
+   "id": 14,
+   "baslik": "Teslimat ve fatura",
+   "firsat_id": 6,
+   "kisi_id": null,
+   "sahip_id": 3,
+   "son_tarih": "2026-09-07",
+   "durum": "tamam",
+   "olusturma": "2026-06-15"
+  },
+  {
+   "id": 15,
+   "baslik": "İzin durumunu sor (tanıtım e-postası)",
+   "firsat_id": null,
+   "kisi_id": 4,
+   "sahip_id": 3,
+   "son_tarih": "2026-10-02",
+   "durum": "acik",
+   "olusturma": "2026-09-15"
+  }
+ ],
+ "notlar": [
+  {
+   "id": 1,
+   "firsat_id": 24,
+   "kisi_id": null,
+   "tarih": "2026-09-17",
+   "yazan_id": 1,
+   "metin": "Müşteri fiyatı %10 düşürmemizi istiyor. Kâğıt gramajını düşürerek ikinci bir seçenek sunalım."
+  },
+  {
+   "id": 2,
+   "firsat_id": 12,
+   "kisi_id": null,
+   "tarih": "2026-09-08",
+   "yazan_id": 1,
+   "metin": "Rakip teklifi bizden yaklaşık dörtte bir daha düşükmüş. Ciltleme maliyetini yeniden hesaplamalıyız."
+  },
+  {
+   "id": 3,
+   "firsat_id": 16,
+   "kisi_id": null,
+   "tarih": "2026-09-03",
+   "yazan_id": 2,
+   "metin": "Kulüp başkanı yurt dışında; karar ekim ortasında verilecek."
+  },
+  {
+   "id": 4,
+   "firsat_id": null,
+   "kisi_id": 2,
+   "tarih": "2026-08-15",
+   "yazan_id": 2,
+   "metin": "Tanıtım e-postası istemediğini söyledi; yalnız teklif ve sipariş yazışması."
+  }
+ ],
+ "sablonlar": [
+  {
+   "id": 1,
+   "ad": "Teklif sonrası takip",
+   "tur": "bilgilendirme",
+   "konu": "{{firsat}} teklifimiz hakkında",
+   "govde": "Merhaba {{ad}},\n\n{{sirket}} için hazırladığımız \"{{firsat}}\" teklifini ({{tutar}}) inceleme fırsatınız oldu mu? Sorunuz olursa bu e-postayı yanıtlamanız yeterli.\n\nİyi çalışmalar,\n{{sahip}}\nMavi Kalem Baskı Atölyesi"
+  },
+  {
+   "id": 2,
+   "ad": "Kış kampanyası duyurusu",
+   "tur": "tanitim",
+   "konu": "Kış menü ve katalog baskılarında erken sipariş",
+   "govde": "Merhaba {{ad}},\n\nKasım sonuna kadar verilen menü ve katalog siparişlerinde teslim süresini bir hafta kısaltıyoruz.\n\n{{sahip}}\nMavi Kalem Baskı Atölyesi · 0000 000 00 00 · merhaba@example.com\n\nBu tür e-postaları almak istemiyorsanız bu e-postayı \"RET\" yazarak yanıtlamanız yeterli."
+  }
+ ],
+ "kurallar": [
+  {
+   "id": 1,
+   "ad": "Kazanılan fırsata teslim görevi",
+   "tetikleyici": "firsat.asama_degisti",
+   "kosul": "yeni aşama = Kazanıldı",
+   "eylem": "fırsatın sahibine 3 gün sonrası için \"Teslimat ve fatura\" görevi aç",
+   "aktif": true
+  },
+  {
+   "id": 2,
+   "ad": "Teklif aşamasına takip görevi",
+   "tetikleyici": "firsat.asama_degisti",
+   "kosul": "yeni aşama = Teklif",
+   "eylem": "fırsatın sahibine 2 gün sonrası için \"Teklifi takip et\" görevi aç",
+   "aktif": false
+  }
+ ]
+}
