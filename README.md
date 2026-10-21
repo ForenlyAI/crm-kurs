@@ -1,4 +1,4 @@
-# CRM 101 — Lab: Mini CRM
+# CRM'le Müşteri Takibi — Lab: Mini CRM
 
 Bu klasör kursun pratik ortamıdır: **Mini CRM** adlı, bilgisayarınızda çalışan küçük bir CRM ve
 alıştırma dosyaları. Örnek işletme **Mavi Kalem Baskı Atölyesi**'dir (uydurma): kartvizit, menü,
